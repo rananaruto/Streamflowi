@@ -234,6 +234,31 @@
         <item name="colorOnPrimary">@color/material_on_primary_emphasis_medium</item>
     </style>
 
+    <!-- Liquid Glass Theme - TV Optimized with Glass Morphism -->
+    <style name="LiquidGlassMode">
+        <item name="primaryGrayBackground">@color/LiquidGlassPrimaryGrayBackground</item>
+        <item name="primaryBlackBackground">@color/LiquidGlassBitDarkerGrayBackground</item>
+        <item name="iconGrayBackground">@color/LiquidGlassGrayBackground</item>
+        <item name="boxItemBackground">@color/LiquidGlassItemBackground</item>
+        <item name="textColor">@color/LiquidGlassTextColor</item>
+        <item name="iconColor">@color/LiquidGlassIconColor</item>
+        <item name="grayTextColor">@color/LiquidGlassGrayTextColor</item>
+        <item name="white">@color/LiquidGlassTextColor</item>
+        <item name="black">@color/LiquidGlassPrimaryGrayBackground</item>
+        <item name="colorOnPrimary">@color/LiquidGlassBitDarkerGrayBackground</item>
+        <item name="colorPrimary">@color/LiquidGlassAccent</item>
+        <item name="colorAccent">@color/LiquidGlassAccent</item>
+    </style>
+
+    <style name="OverlayPrimaryColorLiquidGlass">
+        <item name="colorPrimary">@color/LiquidGlassAccent</item>
+        <item name="android:colorPrimary">@color/LiquidGlassAccent</item>
+        <item name="colorPrimaryDark">#2A8AB8</item>
+        <item name="colorAccent">@color/LiquidGlassAccent</item>
+        <item name="colorOnPrimary">@color/LiquidGlassBitDarkerGrayBackground</item>
+        <item name="android:colorAccent">@color/LiquidGlassAccent</item>
+    </style>
+
     <style name="OverlayPrimaryColorNormal">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimary">@color/colorPrimary</item>

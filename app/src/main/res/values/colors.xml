@@ -118,6 +118,18 @@
     <color name="colorPrimaryCoolBlue">#408cac</color>
     <color name="colorPrimaryLavender">#6F55AF</color>
 
+    <!-- Liquid Glass Theme -->
+    <color name="LiquidGlassPrimaryGrayBackground">#1A2838</color>
+    <color name="LiquidGlassBitDarkerGrayBackground">#0D1926</color>
+    <color name="LiquidGlassGrayBackground">#2A3B4D</color>
+    <color name="LiquidGlassItemBackground">#1A2838</color>
+    <color name="LiquidGlassTextColor">#E8F4F8</color>
+    <color name="LiquidGlassGrayTextColor">#8BA4B5</color>
+    <color name="LiquidGlassIconColor">#4FC3F7</color>
+    <color name="LiquidGlassAccent">#4FC3F7</color>
+    <color name="LiquidGlassSurface">#332A3B4D</color>
+    <color name="LiquidGlassSurfaceElevated">#4D2A3B4D</color>
+
     <color name="colorTestPass">#48E484</color>
     <color name="colorTestFail">#ea596e</color>
     <color name="colorTestWarning">#FF9800</color>
