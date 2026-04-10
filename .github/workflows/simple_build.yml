@@ -2,11 +2,6 @@ name: Simple Debug Build
 
 on:
   workflow_dispatch:
-    inputs:
-      debug:
-        description: 'Run debug build'
-        required: false
-        default: 'true'
 
 jobs:
   build:
@@ -24,9 +19,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Setup Gradle
-        uses: gradle/gradle-build-action@29c0c3cda6d66c2d18ea0fc7cb0e5eb80f8dc06
-        with:
-          gradle-version: 8.7
+        uses: gradle/gradle-build-action@v3
 
       - name: Run Gradle
         run: ./gradlew assembleDebug
